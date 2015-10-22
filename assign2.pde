@@ -93,7 +93,7 @@ void draw() {
       }else{enemyYcrash = false;}
       if (enemyXcrash && enemyYcrash){
         enemyX = -10;
-        if (hp_ > 10){hp_ -= 20;}
+        hp_ -= 20;
       }
       break;
     case 3 : // end
