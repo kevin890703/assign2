@@ -94,6 +94,8 @@ void draw() {
       if (enemyXcrash && enemyYcrash){
         enemyX = -10;
         hp_ -= 20;
+        fighterX = 480;
+        fighterY = floor(random(120,360));
       }
       break;
     case 3 : // end
