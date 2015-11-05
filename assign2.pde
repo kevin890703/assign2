@@ -54,10 +54,10 @@ void draw() {
       if (hp_ < 5){state = 3;}
       // treasure
       image(treasure,treasureX,treasureY);
-      if (fighterX > (treasureX-30) && fighterX < (treasureX+80)){
+      if (fighterX > (treasureX-50) && fighterX < (treasureX+40)){
         treasureXeat = 1;
       }else{treasureXeat = 0;}
-      if (fighterY > (treasureY-30) && fighterY < (treasureY+80)){
+      if (fighterY > (treasureY-50) && fighterY < (treasureY+40)){
         treasureYeat = 1;
       }else{treasureYeat = 0;}
       if (treasureXeat == 1 && treasureYeat == 1){
